@@ -22,9 +22,19 @@ $faq = [
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php foreach ($faq as $k => $text ): ?>
-       <h1> <?php echo $k ?> </h1>
-       <p> <?php echo $text ?> </p>
-    <?php endforeach; ?>
+    <header>
+        <div class="logo">
+            <img src="googlelogo_clr_74x24px .svg" alt="">
+            <h1>Google FAQ</h1>
+        </div>
+    </header>
+    <main>
+        <?php foreach ($faq as $k => $text ): ?>
+        <div class="question">
+            <h2> <?php echo $k ?> </h2>
+            <p> <?php echo $text ?> </p>
+        </div>
+        <?php endforeach; ?>
+    </main>
 </body>
 </html>

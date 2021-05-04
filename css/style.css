@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logo img{
+    margin-right: 20px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.question{
+    margin-bottom: 30px;
+}
+
+.question h2{
+    font-size: 25px;
+}
